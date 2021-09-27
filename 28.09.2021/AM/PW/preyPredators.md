@@ -47,4 +47,4 @@ So, now it’s up to you to work and implement the Prey - Predator model:
 4. Tune the initial parameters to find a balanced state in the model: none of the species disappears during the simulation. The output graph should be like that:
 
 
-<center><img src='https://drive.google.com/uc?export=view&id=1qJ8NqAZolTBQY7lN-deZ8xEsU3dlUiLz' width=200></center>
+<center><img src='28.09.2021/AM/PW/Capture d’écran 2021-09-27 à 21.41.32.png' width=200></center>
