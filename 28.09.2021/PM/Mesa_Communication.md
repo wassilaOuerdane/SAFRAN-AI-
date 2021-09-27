@@ -68,3 +68,23 @@ The four accessor methods of the Message class are:
 - get_dest(): return the receiver of the message;
 - get_performative(): return the performative of the message;
 - get_content(): return the content of the message.
+
+6-**Message Service**: At this point, each agent will have their own mailbox instance and will be able to exchange messages. However, there are still no mechanisms to ensure that sent messages reach the right agents. As agents must not directly drop messages in the mailboxes of the other agents, we need to create a service (a message transport mechanism) which will be managed by the environment and which will take care of the management of message shipments and deliveries.
+
+The three attributes of the MessageService class are:
+
+- scheduler: the scheduler of the SMA initialized in the Mesa model;
+- instant_delivery: the instant delivery status of the MessageService. If True, the message will be delivered instantly in the mailbox of the agent;
+- messages_to_proceed: the list of message to proceed.
+
+
+The mutator method of the MessageService class is:
+
+- set_instant_delivery(instant_delivery): change the instant delivery status of the MessageService.
+
+The four methods of the MessageService class are:
+
+- send_message(message): dispatch a given message if instant delivery is actived, otherwise add the message in the MessageService message list to be proceeded after;
+- dispatch_message(message): dispatch the given message to the right agent;
+- dispatch_messages(): proceed and dispatch each message received by the message service;
+- find_agent_from_name(agent_name): return the agent according to the agent name given.
