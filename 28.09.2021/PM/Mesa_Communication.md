@@ -4,6 +4,9 @@ With the Mesa library, it is possible to set up indirect interaction mechanisms 
 
 As seen previously, the messaging communication in MAS is a four step mechanism.
 
+
+![image](messages_mesa.png)
+
 Before implementing the communicating agents and according to the picture, we must create: (1) a `Message` object, (2) a `Mailbox` object and (3) a list of allowed performative for messages. To do so, we create a new folder hierarchy containging: 
 
 1- **mesa**: root folder which will contain your python codes using the communication layer;
