@@ -17,7 +17,7 @@ Dynamically adding and removing agents from the schedule.
 The goal is to implement a Prey - Predator model closely based on the NetLogo Wolf-Sheep Predation Model: Wilensky, U. (1997). NetLogo Wolf Sheep Predation model. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation
 
 
-Download thearchive which contains the project from which to start and extract it. The extracted folder contains 6 python files:
+Download the archive which contains the project from which to start and extract it. The extracted folder contains 6 python files:
 
 - prey_predator/random_walker.py: this defines the RandomWalker agent, which implements the behavior of moving randomly across a grid, one cell at a time. Both the Wolf and Sheep agents will inherit from it.
 
