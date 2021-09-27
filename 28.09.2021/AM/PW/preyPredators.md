@@ -1,6 +1,6 @@
 
 
-## Implementing a Prey - Predator simulation with Mesa
+### Implementing a Prey - Predator simulation with Mesa
 
 
 The objective of this practical work is to implement a simulation of a Prey - Predator model. The Prey - Predator model is a simple ecological model, consisting of three agent types: wolves, sheep, and grass. The wolves and the sheep wander around the grid at random. Wolves and sheep both expend energy moving around, and replenish it by eating. Sheep eat grass, and wolves eat sheep if they end up on the same grid cell.
