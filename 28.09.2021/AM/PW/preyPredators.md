@@ -45,3 +45,5 @@ So, now it’s up to you to work and implement the Prey - Predator model:
  - Display the different agents on the grid.
  - Added buttons to control the initial settings.
 4. Tune the initial parameters to find a balanced state in the model: none of the species disappears during the simulation. The output graph should be like that:
+
+
