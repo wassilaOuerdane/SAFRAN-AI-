@@ -13,3 +13,5 @@ Projet Worksim: http://www-poleia.lip6.fr/~kant/worksim/index-FR.html#features
 Quelques lectures: 
 
 - Calvaresi, D., Dicente Cid, Y., Marinoni, M. et al. Real-time multi-agent systems: rationality, formal model, and empirical results. Auton Agent Multi-Agent Syst 35, 12 (2021). https://doi.org/10.1007/s10458-020-09492-5
+
+- https://www.tandfonline.com/doi/full/10.1080/21642583.2019.1695689
